@@ -1,0 +1,52 @@
+
+
+.container{
+    display: flex;
+    text-align: center;
+    height: 1000px;
+}
+
+.about_me{
+    background-image: url(https://balldk.github.io/_nuxt/img/wallhaven-dgrlpm.cc7895c.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f9f5f6;
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.miscellaneous{
+    flex: 3;
+}
+
+
+.img_me{
+    border-radius: 50px;
+}
+
+.infor_me{
+    width: 70%;
+    background: hsla(0,0%,93%,.6);
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.1);
+}
+
+.infor_me_sub{
+    height: 30px;
+}
+
+.margin_tag{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blog_name_sub{
+    font-size: 20px;
+}
+
+.blog_name{
+    font-family: Danh Da,Signika,Roboto,sans-serif;
+}

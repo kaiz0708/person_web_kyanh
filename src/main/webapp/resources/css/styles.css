@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+	--border: 1px solid #dce1e4;
+	--gradient: linear-gradient(-45deg, #d000f7, #24bae3);
+	--box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #fff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #eaecee;
+	color: #3c3e41;
+	margin: 0;
+	font-size: 15px;
+}
+
+a {
+	color: #3c3e41;
+	text-decoration: none;
+}
+
+header {
+	padding: 10px;
+	width: calc(100% - 20px);
+	border-bottom: var(--border);
+	display: grid;
+	grid-template-columns: 30% 70%;
+	box-shadow: var(--box-shadow);
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #eaecee;
+	z-index: 1;
+}
+
+header .logo img {
+	height: 50px;
+	border-radius: 8px;
+}
+
+header ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+header ul li {
+	padding: 0 30px;
+	font-weight: 600;
+}
+
+header ul li:hover a {
+	background-clip: text;
+}
+
+.container {
+	width: 1200px;
+	max-width: 90%;
+}
+
+.banner {
+	display: grid;
+	align-items: end;
+	grid-template-columns: 70% 30%;
+	border-bottom: var(--border);
+	padding-bottom: 50px;
+}
+
+.banner .content {
+	text-align: justify;
+	padding-right: 50px;
+}
+
+.banner .content h1 {
+	font-size: 4.5em;
+	margin: 0;
+}
+
+.gradientText {
+	display: inline-block;
+	background-image: var(--gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.info ul {
+	list-style: none;
+}
+
+.info ul span {
+	display: inline-block;
+	min-width: 30px;
+}
+
+.find {
+	margin-top: 50px;
+}
+
+.find ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.find ul li {
+	width: 55px;
+	height: 55px;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.find ul li a {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.find ul li:hover {
+	background-color: var(--gradient);
+	font-size: 2.5em;
+}
+
+.find ul li:hover a {
+	cursor: pointer;
+	color: #fff;
+}
+
+.ids {
+	font-weight: 700;
+	font-size: 1.5em;
+	border-right: 2px solid rgba(0, 0, 0, .75);
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: var(--gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+.title {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 700;
+	font-size: x-large;
+}
+
+
+.listAudio {
+	margin-top: 30px;
+	border-bottom: var(--border);
+	padding-bottom: 50px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.listAudio table,
+th,
+td {
+	border: 1px solid #a2a9b1;
+	border-collapse: collapse;
+}
+
+.listAudio table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.listAudio th {
+	padding: 12px 8px;
+}
+
+.listAudio td {
+	padding: 12px 8px;
+}
+
+.contact {
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-bottom: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: var(--border);
+}
+
+.contact li {
+	width: 55px;
+	height: 55px;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.contact li a {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact li:hover {
+	background-image: var(--gradient);
+	font-size: 2.5em;
+}
+
+.contact li:hover a {
+	cursor: pointer;
+	color: #fff;
+}
+
+footer {
+	text-align: center;
+	font-weight: 500;
+	font-size: medium;
+}
+
+header input,
+header .navDiv,
+header ul label {
+	display: none;
+}
+
+.section-exercise {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-exercise-btn {
+	padding-bottom: 50px;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-bottom: var(--border);
+	width: 920px;
+}
+
+.section-exercise-btn a {
+	display: block;
+	margin: 16px 16px;
+}
